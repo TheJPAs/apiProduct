@@ -27,14 +27,14 @@ public class Product {
     private int stock;
 
     @Column
-    private String Category;
+    private String category;
 
     public String getCategory() {
-        return Category;
+        return category;
     }
 
     public void setCategory(String category) {
-        Category = category;
+        this.category = category;
     }
 
     public int getStock() {
